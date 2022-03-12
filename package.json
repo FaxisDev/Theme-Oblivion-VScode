@@ -2,7 +2,7 @@
     "name": "Theme-Oblivion-Dark",
     "displayName": "Theme Oblivion Dark",
     "description": "Tema oscuro con diversidad de colores llamativos para desarrolladores rockstars.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.65.0"
     },
