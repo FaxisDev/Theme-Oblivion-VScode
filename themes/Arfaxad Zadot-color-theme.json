@@ -2,6 +2,9 @@
 	"name": "Arfaxad Zadot",
 	"type": "dark",
 	"colors": {
+		"focusBorder": "#00000000",
+		
+		/* Menu lateral (Iconos grandes) */
 		"activityBar.foreground": "#b2cee6",
 		"activityBar.inactiveForeground": "#b4d3fc8a",
 		"activityBar.background": "#1F242B",
@@ -10,15 +13,16 @@
 		"activityBarBadge.foreground": "#0202026e",
 		"activityBar.activeBackground": "#0000008a",
 		/* Pestañas*/
-		"tab.activeBackground": "#273141", /* Mas Claro */
+		"tab.activeBackground": "#00000018", /* Mas Claro */
 		"tab.inactiveBackground": "#1F242B",
 		"tab.inactiveForeground": "#899fc4",
-		"tab.activeBorder": "#4A98FA",
+		"tab.activeBorder": "#4afabf",
 		"tab.border": "#14171A",
 		/* "tab.unfocusedHoverBackground": "#0000008a" */
 		/* Editor */
 		"editor.background": "#1F242B",
 		"editor.foreground": "#AACBF0",
+	
 		"editorBracketMatch.background": "#2A3036",
 		"editorBracketMatch.border": "#2A3036",
 		"editorGroup.dropBackground": "#000000aa",
@@ -27,11 +31,11 @@
 		"editorGroupHeader.tabsBackground": "#1F242B",
 		"editorGroupHeader.border": "#2A3036",
 		"editorGroupHeader.tabsBorder": "#2A3036",
+		
 		/* Guia de lineas */
 		"editorIndentGuide.background": "#333d49",
 		"editorIndentGuide.activeBackground": "#556578",
 		"tree.indentGuidesStroke": "#333d49",
-		
 		/* Selector de linea */
 		"editor.lineHighlightBorder": "#2b3b50",
 		"editor.lineHighlightBackground": "#2b3b50",
@@ -43,6 +47,8 @@
 		"editorOverviewRuler.findMatchForeground": "#29ebaa",
 		/* Scroll */
 		"editorOverviewRuler.background": "#1B2026",
+		"editorOverviewRuler.border": "#1F242B",
+	
 		/* Barra Top */
 		"titleBar.activeBackground": "#1B2026",
 		"titleBar.activeForeground": "#AACBF0",
@@ -62,6 +68,7 @@
 		"statusBar.border": "#1B2026",
 		/* Ventana */
 		"widget.shadow": "#1F242B",
+		
 		/* Terminal */
 		"terminal.foreground": "#b0c4e7",
 		"terminal.selectionBackground": "#3070df",
@@ -97,18 +104,24 @@
 		"list.activeSelectionBackground": "#282F38",
 		"list.inactiveSelectionBackground": "#323e4d",
 		"list.hoverBackground": "#323e4d",
+		"list.activeSelectionIconForeground": "#29ebaa",
+		
 		/* Iconos */
 		"icon.foreground": "#AACBF0",
-		
 		/* Lineas modificadas */
 		"editorGutter.modifiedBackground": "#0B86E4",
 		"editorGutter.addedBackground": "#DA3254",
-		
 		/* Widgets */
-		"editorWidget.background": "#282F38",
-		"editorWidget.border": "#22262c",
-	
+		"editorWidget.background": "#222830",
+		"editorWidget.border": "#292f38",
+		"editorWidget.foreground": "#b2cee6",
 		"editorSuggestWidget.selectedBackground": "#282F38",
+		/* Formularios */
+		"input.placeholderForeground": "#bad9f1a2",
+		"input.foreground": "#AACBF0",
+		/* Git */
+		"gitDecoration.ignoredResourceForeground": "#9ad0ff8c"
+	
 	},
 	"tokenColors": [
 		{
@@ -132,7 +145,9 @@
 			}
 		},
 		{
-			"scope": ["entity.name.type"],
+			"scope": [
+				"entity.name.type"
+			],
 			"settings": {
 				"foreground": "#FF5542"
 			}
@@ -159,7 +174,10 @@
 			}
 		},
 		{
-			"scope": ["entity.name.tag", "support.class"],
+			"scope": [
+				"entity.name.tag",
+				"support.class"
+			],
 			"settings": {
 				"foreground": "#FF5542"
 			}

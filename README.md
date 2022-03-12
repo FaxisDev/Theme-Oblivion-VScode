@@ -1,6 +1,6 @@
 ![](https://i.ibb.co/6WnRtDH/theme-Oblivion-Logo.png)
 
-# **Oblivion Theme**
+# **Oblivion Theme Dark**
 
 This theme is still under development to provide the best vscode theme experience, no problem if you want install our beta version for demo.
 

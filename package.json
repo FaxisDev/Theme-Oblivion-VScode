@@ -1,15 +1,15 @@
 {
-    "name": "Theme-Oblivion",
-    "displayName": "Theme Oblivion",
+    "name": "Theme-Oblivion-Dark",
+    "displayName": "Theme Oblivion Dark",
     "description": "Tema oscuro con diversidad de colores llamativos para desarrolladores rockstars.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.65.0"
     },
     "categories": [
         "Themes"
     ],
-    "icon": "icons/themeOblivionLogo_128x128.png",
+    "icon": "icons/themeOblivionLogo.png",
     "author": {
         "name": "Arfaxa Zadot",
         "email": "arfaxad.zadot@gmail.com",
@@ -20,11 +20,11 @@
         "type": "git"
         
     },
-    "publisher": "FaxisDev",
+    "publisher": "ArfaxadZadot",
     "contributes": {
         "themes": [
             {
-                "label": "Arfaxad Zadot",
+                "label": "Theme Oblivion Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Arfaxad Zadot-color-theme.json"
             }
