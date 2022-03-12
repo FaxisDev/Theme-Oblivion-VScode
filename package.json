@@ -9,6 +9,18 @@
     "categories": [
         "Themes"
     ],
+    "icon": "icons/themeOblivionLogo_128x128.png",
+    "author": {
+        "name": "Arfaxa Zadot",
+        "email": "arfaxad.zadot@gmail.com",
+        "url": "https://www.facebook.com/Arfaxad.Zadot/"
+    },
+    "repository": {
+        "url": "https://github.com/FaxisDev/Theme-Oblivion-VScode.git",
+        "type": "git"
+        
+    },
+    "publisher": "FaxisDev",
     "contributes": {
         "themes": [
             {
