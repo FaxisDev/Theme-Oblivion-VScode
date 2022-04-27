@@ -3,12 +3,11 @@
 	"type": "dark",
 	"colors": {
 		"focusBorder": "#00000000",
-		
 		/* Menu lateral (Iconos grandes) */
 		"activityBar.foreground": "#b2cee6",
 		"activityBar.inactiveForeground": "#b4d3fc8a",
 		"activityBar.background": "#1F242B",
-		"activityBar.activeBorder": "#5861e4",
+		"activityBar.activeBorder": "#AACBF0",
 		"activityBarBadge.background": "#29ebaa",
 		"activityBarBadge.foreground": "#0202026e",
 		"activityBar.activeBackground": "#0000008a",
@@ -22,7 +21,6 @@
 		/* Editor */
 		"editor.background": "#1F242B",
 		"editor.foreground": "#AACBF0",
-	
 		"editorBracketMatch.background": "#2A3036",
 		"editorBracketMatch.border": "#2A3036",
 		"editorGroup.dropBackground": "#000000aa",
@@ -31,7 +29,6 @@
 		"editorGroupHeader.tabsBackground": "#1F242B",
 		"editorGroupHeader.border": "#2A3036",
 		"editorGroupHeader.tabsBorder": "#2A3036",
-		
 		/* Guia de lineas */
 		"editorIndentGuide.background": "#333d49",
 		"editorIndentGuide.activeBackground": "#556578",
@@ -48,9 +45,8 @@
 		/* Scroll */
 		"editorOverviewRuler.background": "#1B2026",
 		"editorOverviewRuler.border": "#1F242B",
-	
 		/* Barra Top */
-		"titleBar.activeBackground": "#1B2026",
+		"titleBar.activeBackground": "#1F242B",
 		"titleBar.activeForeground": "#AACBF0",
 		/* Barra Lateral */
 		"sideBar.background": "#1B2026",
@@ -66,9 +62,12 @@
 		"statusBarItem.hoverBackground": "#0b0b137a",
 		"statusBar.noFolderBackground": "#1B2026",
 		"statusBar.border": "#1B2026",
+		"statusBar.debuggingBackground": "#29ebaa",
+		"statusBar.debuggingForeground": "#1B2026",
+		/* Debug */
+		"debugToolBar.background": "#282F38",
 		/* Ventana */
 		"widget.shadow": "#1F242B",
-		
 		/* Terminal */
 		"terminal.foreground": "#b0c4e7",
 		"terminal.selectionBackground": "#3070df",
@@ -105,7 +104,6 @@
 		"list.inactiveSelectionBackground": "#323e4d",
 		"list.hoverBackground": "#323e4d",
 		"list.activeSelectionIconForeground": "#29ebaa",
-		
 		/* Iconos */
 		"icon.foreground": "#AACBF0",
 		/* Lineas modificadas */
@@ -120,8 +118,20 @@
 		"input.placeholderForeground": "#bad9f1a2",
 		"input.foreground": "#AACBF0",
 		/* Git */
-		"gitDecoration.ignoredResourceForeground": "#9ad0ff8c"
-	
+		"gitDecoration.ignoredResourceForeground": "#9ad0ff8c",
+		/* Herramientass y Configuracion */
+		"settings.headerBorder": "#282F38",
+		"settings.focusedRowBackground": "#282F38",
+		"settings.modifiedItemIndicator": "#29ebaa",
+		"settings.checkboxBackground": "#eeff00",
+		"settings.checkboxForeground": "#2e3000",
+
+		/* extensiones */
+		"extensionIcon.verifiedForeground": "#3ddccc",
+		"extensionIcon.starForeground": "#a4dd3a",
+
+		
+
 	},
 	"tokenColors": [
 		{
