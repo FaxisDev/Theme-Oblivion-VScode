@@ -19,7 +19,7 @@
 		"tab.border": "#14171A",
 		/* "tab.unfocusedHoverBackground": "#0000008a" */
 		/* Editor */
-		"editor.background": "#1F242B",
+		"editor.background": "#1F262E",
 		"editor.foreground": "#AACBF0",
 		"editorBracketMatch.background": "#2A3036",
 		"editorBracketMatch.border": "#2A3036",
@@ -145,7 +145,7 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#c1eb4e"
+				"foreground": "#d1ff51"
 			}
 		},
 		{
@@ -180,7 +180,7 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#FF9752"
+				"foreground": "#ffb951"
 			}
 		},
 		{
@@ -280,19 +280,43 @@
 		{
 			"scope": "keyword.operator.class.php",
 			"settings": {
-				"foreground": "#FFB736"
+				"foreground": "#ffb951"
 			}
 		},
 		{
 			"scope": "keyword.other.phpdoc",
 			"settings": {
-				"foreground": "#eb4eaf"
+				"foreground": "#ffd651"
 			}
 		},
 		{
 			"scope": "keyword.operator.key.php",
 			"settings": {
 				"foreground": "#91D4FF"
+			}
+		},
+		{
+			"scope": "support.class.php",
+			"settings": {
+				"foreground": "#ff5165"
+			}
+		},
+		{
+			"scope": "entity.name.type.class.php",
+			"settings": {
+				"foreground": "#d1ff51"
+			}
+		},
+		{
+			"scope": "variable.other.php",
+			"settings": {
+				"foreground": "#2fb3ff"
+			}
+		},
+		{
+			"scope": "entity.name.type.namespace.php",
+			"settings": {
+				"foreground": "#97ff51"
 			}
 		},
 		/* Perl */

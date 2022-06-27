@@ -13,6 +13,6 @@ Developed by [Arfaxad Zadot](http://facebook.com/arfaxad.zadot "Arfaxad Zadot")
 
 ![](https://i.ibb.co/dfMtn04/Captura-de-Pantalla-2022-04-27-a-la-s-14-51-12.png)
 ![](https://i.ibb.co/gMcSQdS/Captura-de-Pantalla-2022-04-27-a-la-s-14-52-03.png)
-![](https://i.ibb.co/YQXYgj2/Captura-de-Pantalla-2022-04-27-a-la-s-14-53-31.png)
+![](https://i.ibb.co/0JKy22Z/Captura-de-Pantalla-2022-06-27-a-la-s-13-21-27.png)
 
 
