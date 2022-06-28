@@ -6,18 +6,24 @@
 		/* Menu lateral (Iconos grandes) */
 		"activityBar.foreground": "#b2cee6",
 		"activityBar.inactiveForeground": "#b4d3fc8a",
-		"activityBar.background": "#1F242B",
+		"activityBar.background": "#1B2026",
 		"activityBar.activeBorder": "#AACBF0",
 		"activityBarBadge.background": "#29ebaa",
-		"activityBarBadge.foreground": "#0202026e",
-		"activityBar.activeBackground": "#0000008a",
+		"activityBarBadge.foreground": "#0202028f",
+		"activityBar.activeBackground": "#1F262E",
 		/* Pestañas*/
-		"tab.activeBackground": "#00000018", /* Mas Claro */
-		"tab.inactiveBackground": "#1F242B",
+		"tab.activeBackground": "#1F262E", /* Mas Claro */
+		"tab.inactiveBackground": "#1B2026",
 		"tab.inactiveForeground": "#899fc4",
-		"tab.activeBorder": "#4afabf",
-		"tab.border": "#14171A",
-		/* "tab.unfocusedHoverBackground": "#0000008a" */
+		"tab.border": "#1B2026",
+		"editorGroupHeader.tabsBackground": "#1B2026",
+		"editorGroupHeader.tabsBorder": "#1F262E",
+		"editorGroupHeader.border": "#1B2026",
+		/* Barra Top de Navegacion (ubicacion) */
+		"breadcrumb.focusForeground": "#29ebaa",
+		"breadcrumb.activeSelectionForeground": "#29ebaa",
+		"breadcrumb.background": "#1F262E",
+		"breadcrumb.foreground": "#b0c4e7",
 		/* Editor */
 		"editor.background": "#1F262E",
 		"editor.foreground": "#AACBF0",
@@ -26,9 +32,6 @@
 		"editorGroup.dropBackground": "#000000aa",
 		"editorLineNumber.activeForeground": "#829BB8",
 		"editorLineNumber.foreground": "#556578",
-		"editorGroupHeader.tabsBackground": "#1F242B",
-		"editorGroupHeader.border": "#2A3036",
-		"editorGroupHeader.tabsBorder": "#2A3036",
 		/* Guia de lineas */
 		"editorIndentGuide.background": "#333d49",
 		"editorIndentGuide.activeBackground": "#556578",
@@ -45,8 +48,9 @@
 		/* Scroll */
 		"editorOverviewRuler.background": "#1B2026",
 		"editorOverviewRuler.border": "#1F242B",
+
 		/* Barra Top */
-		"titleBar.activeBackground": "#1F242B",
+		"titleBar.activeBackground": "#1B2026",
 		"titleBar.activeForeground": "#AACBF0",
 		/* Barra Lateral */
 		"sideBar.background": "#1B2026",
@@ -67,7 +71,7 @@
 		/* Debug */
 		"debugToolBar.background": "#282F38",
 		/* Ventana */
-		"widget.shadow": "#1F242B",
+		"widget.shadow": "#1B2026",
 		/* Terminal */
 		"terminal.foreground": "#b0c4e7",
 		"terminal.selectionBackground": "#3070df",
@@ -76,11 +80,6 @@
 		"panelTitle.activeBorder": "#29ebaa",
 		"panelSectionHeader.border": "#29ebaa",
 		"panelTitle.activeForeground": "#b0c4e7",
-		/* Barra Top de Navegacion (ubicacion) */
-		"breadcrumb.focusForeground": "#29ebaa",
-		"breadcrumb.activeSelectionForeground": "#29ebaa",
-		"breadcrumb.background": "#1F242B",
-		"breadcrumb.foreground": "#b0c4e7",
 		/* Cuadro de notificaciones */
 		"notificationCenter.border": "#32435a",
 		"notificationCenterHeader.background": "#29ebaa",
@@ -125,13 +124,9 @@
 		"settings.modifiedItemIndicator": "#29ebaa",
 		"settings.checkboxBackground": "#eeff00",
 		"settings.checkboxForeground": "#2e3000",
-
 		/* extensiones */
 		"extensionIcon.verifiedForeground": "#3ddccc",
 		"extensionIcon.starForeground": "#a4dd3a",
-
-		
-
 	},
 	"tokenColors": [
 		{
@@ -274,6 +269,43 @@
 			"scope": "string.regexp.find",
 			"settings": {
 				"foreground": "#e9253f"
+			}
+		},
+		/* Python */
+		{
+			"scope": "entity.name.type.class.python",
+			"settings": {
+				"foreground": "#d1ff51"
+			}
+		},
+		{
+			"scope": "meta.attribute.python",
+			"settings": {
+				"foreground": "#ffd651"
+			}
+		},
+		{
+			"scope": "entity.other.inherited-class.python",
+			"settings": {
+				"foreground": "#2fb3ff"
+			}
+		},
+		{
+			"scope": "variable.parameter.function.language.python",
+			"settings": {
+				"foreground": "#ff5165"
+			}
+		},
+		{
+			"scope": "meta.function-call.generic.python",
+			"settings": {
+				"foreground": "#91D4FF"
+			}
+		},
+		{
+			"scope": "constant.language.python",
+			"settings": {
+				"foreground": "#ff8551"
 			}
 		},
 		/* Php */
